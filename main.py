@@ -83,3 +83,4 @@ for library in libraries:
    lg = library.x
    folium.Marker([lt, lg]).add_to(map_osm)
 map_osm
+map_osm.save("map.html")
